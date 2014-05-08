@@ -1,3 +1,14 @@
+IAB on Android should set MIME type when opening external links.
+
+- Cordova RTC work item number: 41920
+- Apache Cordova Jira issue: https://issues.apache.org/jira/browse/CB-5592
+- Markmail or Google Group reference: none
+- Product PMR: 41999
+- cherry-pick fixes from CB-5592 that sets the MIME type to INTENT
+  when opening file:// URI's, avoids a "No Activity foudn to handle
+  Intent..." error from Android when opening up a file:// link in 
+  the InAppBrowser.
+
 CVE-2014-0072 Security patch for iOS InAppBrowser
 
 - Cordova RTC work item number: 38660
