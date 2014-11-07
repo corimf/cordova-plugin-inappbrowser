@@ -26,3 +26,10 @@ Webview methods need to run on UI thread starting in Android 4.3
 - backport CB-4858 to this branch. Without it, starting in Android
   4.3 the InAppBrowser may fail to open, and calls to window.open for the 
   InAppBrowser would throw a Java exception. 
+
+Cordova iOS 64-bit support
+- Cordova RTC work item number: 55592
+- Worklight RTC work item number: 55901
+- Apache Cordova Jira issue: CB-6212
+- Markmail or Google Group reference: none
+- Fix plugin warnings compiled under arm64 64-bit
